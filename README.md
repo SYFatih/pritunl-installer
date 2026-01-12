@@ -1,24 +1,16 @@
-# Pritunl Ubuntu 22.04 Installer
+# Pritunl Installer (Ubuntu 22.04 / 24.04)
 
-Ubuntu 22.04 (Jammy) için:
-- Pritunl
-- MongoDB 8.0
-- OpenVPN repo
-- WireGuard
+Tek script ile:
+- Ubuntu 22.04 (Jammy)
+- Ubuntu 24.04 (Noble)
 
-otomatik kurulum scripti.
+üzerine **Pritunl + MongoDB 8.0 + OpenVPN + WireGuard** kurar.
 
-## ✅ Desteklenen Sistem
-- Ubuntu 22.04 LTS (Jammy)
-- Oracle Cloud (ARM / AMD)
-- VPS / Dedicated
+OS sürümü otomatik algılanır.
 
 ---
 
-## 🚀 Kurulum
+## 🚀 One-Line Install
 
 ```bash
-git clone https://github.com/SYFatih/pritunl-ubuntu22-installer.git
-cd pritunl-ubuntu22-installer
-chmod +x install.sh
-sudo ./install.sh
+curl -fsSL https://raw.githubusercontent.com/SYFatih/pritunl-installer/main/install.sh | bash
